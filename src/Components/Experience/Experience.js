@@ -16,10 +16,10 @@ const ExperienceList = [
     Tempo: "Jan 2023 - Presente",
   },
 ];
-const Experience = () => {
+const Experience = ({id}) => {
   return (
     <>
-      <ExperienceArea>
+      <ExperienceArea id={id}>
         <h2>Experiências profissionais</h2>
         {ExperienceList.map((item) => (
           <Card>

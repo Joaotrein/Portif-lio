@@ -8,13 +8,13 @@ import {
 } from "./Style";
 import Foto2 from "../../Assets/Foto2.webp";
 
-const Curiosity = () => {
+const Curiosity = ({id}) => {
   return (
     <>
-      <Curiositys>
+      <Curiositys id={id} >
         <PhotoWrapper2>
           <PhotoEffect2 />
-          <Photo2 src={Foto2} alt="Foto João" />
+          <Photo2 src={Foto2} alt="Foto João"  />
         </PhotoWrapper2>
 
         <CuriosityText>

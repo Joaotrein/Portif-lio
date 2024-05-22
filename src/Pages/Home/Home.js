@@ -6,17 +6,15 @@ import Curiosity from "../../Components/Curiosity/Curiosity";
 import Skills from "../../Components/Skills/Skills";
 import Experience from "../../Components/Experience/Experience";
 
-
-
 function Home() {
   return (
     <>
       <Header />
       <About />
-      <Curiosity />
-      <Skills />
-      <Experience />
-      <Projects />
+      <Curiosity id="curiosidades" />
+      <Skills id="habilidades" />
+      <Experience id="experiencia" />
+      <Projects id="projetos" />
     </>
   );
 }

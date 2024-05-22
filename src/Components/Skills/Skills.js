@@ -82,10 +82,10 @@ const Tecnologys = [
   // },
 ];
 
-const Skills = () => {
+const Skills = ({id}) => {
   return (
     <>
-      <SkillsArea>
+      <SkillsArea id={id}>
         <h2>Tecnologias que estou desenvolvendo </h2>
         <Skill>
           {Tecnologys.map((item, index) => (

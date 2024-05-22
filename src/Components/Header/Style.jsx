@@ -15,6 +15,10 @@ export const HeadContainer = styled.header`
     text-decoration: none;
   }
 
+  a:hover {
+    cursor: pointer;
+  }
+
   a::before {
     content: "";
     position: absolute;
