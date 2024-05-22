@@ -20,41 +20,25 @@ const Curiosity = () => {
         <CuriosityText>
           <h2>Conheça mais sobre mim!</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            cursus leo eu dapibus cursus. Duis a metus vitae metus ultricies
-            mattis eget in leo. Aliquam nec hendrerit ex. Nam vel enim et nunc
-            ullamcorper pharetra et eleifend ante. Duis vitae dolor cursus,
-            tempus ligula eget, sagittis mauris. Praesent placerat tincidunt
-            lacus, et rutrum tellus vehicula interdum. Suspendisse orci leo,
-            porttitor id leo nec, dapibus aliquam magna. Maecenas ultrices velit
-            sed eleifend varius. Curabitur at sem urna. Duis ultricies sapien
-            non ex ultrices, et tincidunt tellus maximus. Donec sagittis
-            vestibulum est et tincidunt. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Mauris vel risus commodo, tincidunt ex nec, dictum
-            nisl. Nullam at nunc vel ex convallis mattis vel et mi. Sed sed
-            gravida dui, quis bibendum ligula.
+            Sou um entusiasta da tecnologia, com uma paixão especial por machine
+            learning e data science. Ao longo dos últimos três anos, venho
+            aprimorando minhas habilidades de programação, sempre em busca de
+            novos desafios e aprendizados. Atualmente, atuo como analista de
+            SEO, onde aplico meu conhecimento técnico para otimizar e melhorar a
+            visibilidade de sites.
           </p>
           <p>
-            rper pharetra et eleifend ante. Duis vitae dolor cursus, tempus
-            ligula eget, sagittis mauris. Praesent placerat tincidunt lacus, et
-            rutrum tellus vehicula interdum. Suspendisse orci leo, porttitor id
-            leo nec, dapibus aliquam magna. Maecenas ultrices velit sed eleifend
-            varius. Curabitur at sem urna. Duis ultricies sapien non ex
-            ultrices, et tincidunt tellus maximus. Donec sagittis vestibulum est
-            et tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Mauris vel risus commodo, tincidunt ex nec, dictum nisl.
-            Nullam at nunc vel ex con
+            No entanto, meu objetivo é aprofundar ainda mais no campo da
+            tecnologia, explorando as vastas possibilidades oferecidas por
+            machine learning e data science. Estou constantemente estudando e
+            praticando para me especializar nessas áreas e contribuir
+            significativamente com soluções inovadoras.
           </p>
           <p>
-            rper pharetra et eleifend ante. Duis vitae dolor cursus, tempus
-            ligula eget, sagittis mauris. Praesent placerat tincidunt lacus, et
-            rutrum tellus vehicula interdum. Suspendisse orci leo, porttitor id
-            leo nec, dapibus aliquam magna. Maecenas ultrices velit sed eleifend
-            varius. Curabitur at sem urna. Duis ultricies sapien non ex
-            ultrices, et tincidunt tellus maximus. Donec sagittis vestibulum est
-            et tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Mauris vel risus commodo, tincidunt ex nec, dictum nisl.
-            Nullam at nunc vel ex con
+            Acredito que a combinação da minha experiência em SEO e minhas
+            habilidades em programação me permite ter uma visão única e
+            abrangente sobre os dados, o que é essencial para uma carreira
+            bem-sucedida em tecnologia.
           </p>
         </CuriosityText>
       </Curiositys>

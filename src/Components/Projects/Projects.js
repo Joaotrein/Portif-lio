@@ -14,7 +14,7 @@ const projects = [
   {
     Nome: "CriptoEduca",
     imagem: ProjetoCriptoeduca,
-    Desc: "xyadjasdajsoi wjepiwqjicxmlask msdkla sjm aksdm asdnaskjndksdaklsmdlk alksmdalskdnm al skndalsk dnaj ak jsndkas ndak sdn",
+    Desc: "Esse projeto foi meu TCC do ensino médio técnico para desenvolvimento web. Ele consiste em uma trilha de aprendizagem com foco em ensinar aquelas pessoas que estão conhecendo o mundo das criptomoedas.Ele constitui vários tópicos informativos sobre o tema, além de um chatbot feito com DialogFlow e o uso de algumas APIs para enriquecer a experiência.",
     tags: [
       "ReactJs",
       "Styled-Components",
