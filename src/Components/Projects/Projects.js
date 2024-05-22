@@ -30,9 +30,9 @@ const projects = [
   },
 ];
 
-const Projects = () => {
+const Projects = ({id}) => {
   return (
-    <ProjectsArea>
+    <ProjectsArea id={id}>
       <h2>Projetos pessoais</h2>
       {projects.map((item, index) => (
         <ProjectsCard key={index}>
