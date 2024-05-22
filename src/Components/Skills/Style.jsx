@@ -29,7 +29,7 @@ export const Skill = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% / 8);
+    width: calc(100% / 6);
 
     @media (max-width: 1200px) {
       width: calc(100% / 6);

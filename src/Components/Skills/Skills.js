@@ -52,14 +52,14 @@ const Tecnologys = [
     Name: "Scikitlearn",
     Icon: <SiScikitlearn fontSize="80px" color="#f09437" />,
   },
-  {
-    Name: "Flask",
-    Icon: <SiFlask fontSize="80px" color="#989898" />,
-  },
-  {
-    Name: "Django",
-    Icon: <DiDjango fontSize="80px" color="#003a28" />,
-  },
+  // {
+  //   Name: "Flask",
+  //   Icon: <SiFlask fontSize="80px" color="#989898" />,
+  // },
+  // {
+  //   Name: "Django",
+  //   Icon: <DiDjango fontSize="80px" color="#003a28" />,
+  // },
   {
     Name: "MongoDB",
     Icon: <BiLogoMongodb fontSize="80px" color="#06473c" />,
@@ -72,14 +72,14 @@ const Tecnologys = [
     Name: "Postgresql",
     Icon: <BiLogoPostgresql fontSize="80px" color="#31648c" />,
   },
-  {
-    Name: "Git",
-    Icon: <FaGitAlt fontSize="80px" color="#f34f1f" />,
-  },
-  {
-    Name: "Docker",
-    Icon: <IoLogoDocker fontSize="80px" color="#0598c2" />,
-  },
+  // {
+  //   Name: "Git",
+  //   Icon: <FaGitAlt fontSize="80px" color="#f34f1f" />,
+  // },
+  // {
+  //   Name: "Docker",
+  //   Icon: <IoLogoDocker fontSize="80px" color="#0598c2" />,
+  // },
 ];
 
 const Skills = () => {

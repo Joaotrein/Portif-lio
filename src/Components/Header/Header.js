@@ -1,6 +1,6 @@
 import React from "react";
 import { HeadContainer } from "./Style";
-import CV from "../../Currículo - João Pedro Trein.pdf"
+import CV from "../../Currículo - ADP - Intern.pdf"
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
           <a href="a">Projetos</a>
           <a href="a">Contato</a>
           <span>|</span>
-          <a href={CV} download="Currículo - João Trein" target="_blank" rel="noreferrer">
+          <a href={CV} download="Resume - João Trein" target="_blank" rel="noreferrer">
             <button>Baixar CV</button>
           </a>
         </nav>
