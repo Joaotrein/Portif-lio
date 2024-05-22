@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const HeadContainer = styled.header`
-  width: auto;
+  width: 100%;
   background-color: #030712;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 8vh;
-  padding-right: 80px;
+  padding: 0 80px;
 
   a {
     color: #18272f;
@@ -44,25 +44,44 @@ export const HeadContainer = styled.header`
     text-decoration: none;
   }
 
-  span{
+  span {
     color: white;
   }
 
-  button{
+  button {
     padding: 5px;
     border: none;
     background-color: #005481;
     border-radius: 5px;
     color: white;
-    transition:  0.2s ease-in-out;
-
+    transition: 0.2s ease-in-out;
   }
 
-  button:hover{
+  button:hover {
     background-color: white;
     color: #005481;
-    transition:  0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     cursor: pointer;
-    transform: scale(1.1)
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 40px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    button {
+      margin-top: 10px;
+    }
   }
 `;
