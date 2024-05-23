@@ -25,7 +25,7 @@ const projects = [
       "API Requests",
       "DialogFlow",
     ],
-    link: "https://youtube.com",
+    link: "https://projetocriptomoeda-front.onrender.com",
     Github: "https://github.com/Joaotrein/ProjetoCriptomoeda",
   },
 ];
