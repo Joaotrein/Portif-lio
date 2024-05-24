@@ -63,7 +63,7 @@ const About = () => {
             e análise de dados. Estou na área da programação há 3 anos e já
             desenvolvi diversos projetos. Tenho uma grande paixão por
             Inteligência Artificial e aprendizado de máquinas e gosto de estudar
-            matématica para dados nas horas vagas.{" "}
+            matemática para dados nas horas vagas.
           </p>
           <SocialMidia>
             {SocialMidias.map((item, index) => (

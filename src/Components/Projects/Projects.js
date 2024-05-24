@@ -7,6 +7,8 @@ import {
   TagsContainer,
 } from "./Style";
 import ProjetoCriptoeduca from "../../Assets/Projeto-criptoeduca.webp";
+import ProjetoPandas from "../../Assets/foto-pandas.webp";
+
 import { CiShare1 } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 
@@ -26,11 +28,21 @@ const projects = [
       "DialogFlow",
     ],
     link: "https://projetocriptomoeda-front.onrender.com",
+    showLink: true,
     Github: "https://github.com/Joaotrein/ProjetoCriptomoeda",
+  },
+  {
+    Nome: "Pandas",
+    imagem: ProjetoPandas,
+    Desc: "Esse repositório compõe os meus principais projetos estudando sobre Pandas, uma biblioteca do Python para visualização e análise de dados muito utilizada na área de data science e análise de dados.",
+    tags: ["Python", "Pandas", "Regex", "JSON", "CSV files", "Data Analysis"],
+    link: "",
+    showLink: false,
+    Github: "https://github.com/Joaotrein/Pandas-Python-Lib",
   },
 ];
 
-const Projects = ({id}) => {
+const Projects = ({ id }) => {
   return (
     <ProjectsArea id={id}>
       <h2>Projetos pessoais</h2>
@@ -45,9 +57,11 @@ const Projects = ({id}) => {
               ))}
             </TagsContainer>
 
-            <a href={item.link} target="_blank" rel="noreferrer">
-              <CiShare1 color="white" fontSize="30px" />
-            </a>
+            {item.showLink ? (
+              <a href={item.link} target="_blank" rel="noreferrer">
+                <CiShare1 color="white" fontSize="30px" />
+              </a>
+            ) : null}
             <a href={item.Github} target="_blank" rel="noreferrer">
               <FaGithub color="white" fontSize="30px" />
             </a>
