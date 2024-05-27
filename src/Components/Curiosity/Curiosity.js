@@ -8,37 +8,37 @@ import {
 } from "./Style";
 import Foto2 from "../../Assets/Foto2.webp";
 
-const Curiosity = ({id}) => {
+const Curiosity = ({ id }) => {
   return (
     <>
-      <Curiositys id={id} >
+      <Curiositys id={id}>
         <PhotoWrapper2>
           <PhotoEffect2 />
-          <Photo2 src={Foto2} alt="Foto João"  />
+          <Photo2 src={Foto2} alt="Foto João" />
         </PhotoWrapper2>
 
         <CuriosityText>
-          <h2>Conheça mais sobre mim!</h2>
+          <h2>Learn more about me</h2>
           <p>
-            Sou um entusiasta da tecnologia, com uma paixão especial por machine
-            learning e data science. Ao longo dos últimos três anos, venho
-            aprimorando minhas habilidades de programação, sempre em busca de
-            novos desafios e aprendizados. Atualmente, atuo como analista de
-            SEO, onde aplico meu conhecimento técnico para otimizar e melhorar a
-            visibilidade de sites.
+            I am a technology enthusiast with a special passion for machine
+            learning and data science. Over the past three years, I have been
+            honing my programming skills, always seeking new challenges and
+            learning opportunities. Currently, I work as an SEO analyst, where I
+            apply my technical knowledge to optimize and improve website
+            visibility.
           </p>
           <p>
-            No entanto, meu objetivo é aprofundar ainda mais no campo da
-            tecnologia, explorando as vastas possibilidades oferecidas por
-            machine learning e data science. Estou constantemente estudando e
-            praticando para me especializar nessas áreas e contribuir
-            significativamente com soluções inovadoras.
+            However, my goal is to delve even deeper into the field of
+            technology, exploring the vast possibilities offered by machine
+            learning and data science. I am constantly studying and practicing
+            to specialize in these areas and significantly contribute to
+            innovative solutions.
           </p>
           <p>
-            Acredito que a combinação da minha experiência em SEO e minhas
-            habilidades em programação me permite ter uma visão única e
-            abrangente sobre os dados, o que é essencial para uma carreira
-            bem-sucedida em tecnologia.
+            I believe that the combination of my experience in SEO and my
+            programming skills allows me to have a unique and comprehensive
+            perspective on data, which is essential for a successful career in
+            technology.
           </p>
         </CuriosityText>
       </Curiositys>
