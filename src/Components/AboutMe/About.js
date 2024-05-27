@@ -57,13 +57,13 @@ const About = () => {
     <>
       <AboutArea>
         <AboutText>
-          <h1>Olá! Eu sou o João 👋</h1>
+          <h1>Hi! I'am João 👋</h1>
           <p>
-            Eu sou analista de SEO e desenvolvedor fullstack com foco em ciência
-            e análise de dados. Estou na área da programação há 3 anos e já
-            desenvolvi diversos projetos. Tenho uma grande paixão por
-            Inteligência Artificial e aprendizado de máquinas e gosto de estudar
-            matemática para dados nas horas vagas.
+            I am an SEO analyst and full-stack developer with a focus on data
+            science and analysis. I have been in the programming field for 3
+            years and have developed several projects. I have a great passion
+            for Artificial Intelligence and machine learning, and I enjoy
+            studying data mathematics in my spare time.
           </p>
           <SocialMidia>
             {SocialMidias.map((item, index) => (

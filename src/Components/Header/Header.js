@@ -9,23 +9,28 @@ function Header() {
       <HeadContainer>
         <nav>
           <ScrollLink to="curiosidades" smooth={true} duration={500}>
-            Sobre
+            About
           </ScrollLink>
           <ScrollLink to="habilidades" smooth={true} duration={500}>
-            Habilidades
+            Skills
           </ScrollLink>
           <ScrollLink to="experiencia" smooth={true} duration={500}>
-            Experiência
+            Experience
           </ScrollLink>
           <ScrollLink to="projetos" smooth={true} duration={500}>
-            Projetos
+            Projects
           </ScrollLink>
           {/* <ScrollLink to="contato" smooth={true} duration={500}>
             Contato
           </ScrollLink> */}
           <span>|</span>
-          <a href={CV} download="Resume - João Trein" target="_blank" rel="noreferrer">
-            <button>Baixar CV</button>
+          <a
+            href={CV}
+            download="Resume - João Trein"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Download Resume</button>
           </a>
         </nav>
       </HeadContainer>
