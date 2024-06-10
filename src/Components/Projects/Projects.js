@@ -9,6 +9,7 @@ import {
 import ProjetoCriptoeduca from "../../Assets/Projeto-criptoeduca.webp";
 import ProjetoPandas from "../../Assets/foto-pandas.webp";
 import ProjetoSKlearn from "../../Assets/sklearn-foto.webp";
+import ProjectCar from "../../Assets/selfdriveproject.webp";
 
 import { CiShare1 } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -62,6 +63,15 @@ const projects = [
     link: "",
     showLink: false,
     Github: "https://github.com/Joaotrein/SKlearn",
+  },
+  {
+    Nome: "Self Driving Car",
+    imagem: ProjectCar,
+    Desc: "This project was done together with a course I was taking. Basically show how a neural network thinks to make decisions. Thus, we developed a neural network capable of identifying where there are cars or street barriers, thus avoiding them.",
+    tags: ["Javascript", "Maths", "Neural Networks"],
+    link: "https://joaotrein.github.io/Self-Driving-Car/",
+    showLink: true,
+    Github: "https://github.com/Joaotrein/Self-Driving-Car",
   },
 ];
 
