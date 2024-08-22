@@ -1,8 +1,20 @@
 import React from "react";
 import { Card, CardText, ExperienceArea } from "./Style";
 import LogoV4 from "../../Assets/LogoV4.webp";
+import LogoConv from "../../Assets/conv-logo.webp";
 
 const ExperienceList = [
+  {
+    Logo: LogoConv,
+    Título: "SEO Analyst - Focus on Data - Intern",
+    Habilidades: [
+      "SEO Analytics with Programming",
+      "Sheets and Execel analysis",
+      "Machine learning models for SEO projections results",
+      "SEMrush, Google Search Console, GA4, Screaming Frog",
+    ],
+    Tempo: "Aug 2024 - Present",
+  },
   {
     Logo: LogoV4,
     Título: "SEO Analyst",
@@ -10,13 +22,13 @@ const ExperienceList = [
       "Web Page optimizer",
       "Content Analyst",
       "SEO Content Writer",
-      "SEO Analytics com Python",
+      "SEO Analytics With Python",
       "SEMrush, Google Search Console, GA4, Screaming Frog",
     ],
-    Tempo: "Jan 2023 - Present",
+    Tempo: "Jan 2023 - Jul 2024",
   },
 ];
-const Experience = ({id}) => {
+const Experience = ({ id }) => {
   return (
     <>
       <ExperienceArea id={id}>
